@@ -10,7 +10,7 @@ const adapter = new FileSync('db.json');
 const db = low(adapter);
 
 program
-    .option('-e, --env <environment>', 'The environment to connect to, either "sandbox" or "production"')
+    .option('-e, --env <environment>', 'The environment to connect to, either "sandbox" or "production"','sandbox')
     .option('-d, --delete <delete_id>', 'The subscription to delete')
     .option('-i, --info <info_id>', 'The subscription to get information on')
     .action(function() {
