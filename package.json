@@ -1,0 +1,22 @@
+{
+  "name": "ringcentral-js-tools",
+  "version": "0.1.0",
+  "description": "A collection of command line tools to help developers during development.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Byrne Reese",
+  "license": "MIT",
+  "bin": {
+    "rc-subscriptions": "./subscriptions.js",
+    "rc-init": "./init.js"
+  },
+  "dependencies": {
+    "co": "^4.6.0",
+    "co-prompt": "^1.0.0",
+    "commander": "^2.19.0",
+    "lowdb": "^1.0.0",
+    "superagent": "^4.0.0-beta.5"
+  }
+}
